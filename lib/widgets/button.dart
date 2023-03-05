@@ -5,11 +5,12 @@ class Button extends StatelessWidget {
   final Color bgColor;
   final Color textColor;
 
-  const Button(
-      {super.key,
-      required this.text,
-      required this.bgColor,
-      required this.textColor});
+  const Button({
+    super.key,
+    required this.text,
+    required this.bgColor,
+    required this.textColor,
+  });
 
   @override
   Widget build(BuildContext context) {
@@ -23,7 +24,10 @@ class Button extends StatelessWidget {
         ),
         child: Text(
           text,
-          style: TextStyle(fontSize: 20, color: textColor),
+          style: TextStyle(
+            fontSize: 20,
+            color: textColor,
+          ),
         ),
       ),
     );
