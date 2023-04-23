@@ -115,5 +115,7 @@ flutter doctor
 flutter create <project name>
 cd <project name> 
 flutter run 
+flutter run -d chrome --web-browser-flag '--disable-web-security'
 ```
 
+## 확장 프로그램 플루터 설치하기.
