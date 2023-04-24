@@ -124,3 +124,8 @@ flutter run -d chrome --web-browser-flag '--disable-web-security'
 ```
 flutter pub add url_launcher
 ```
+
+## cors error로 빌드할때 이렇게 입력해야함
+```
+flutter build web --web-renderer html --release
+```
