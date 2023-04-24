@@ -119,3 +119,8 @@ flutter run -d chrome --web-browser-flag '--disable-web-security'
 ```
 
 ## 확장 프로그램 플루터 설치하기.
+
+## url_launcher
+```
+flutter pub add url_launcher
+```
